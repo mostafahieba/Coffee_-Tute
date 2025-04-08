@@ -1,0 +1,50 @@
+import 'package:flutter/material.dart';
+
+import 'Coffee.dart';
+class CoffeeShop extends ChangeNotifier {
+  // coffee for sale list
+  final List<Coffee> _Shop = [
+    // black coffee
+   Coffee(name: "Black Coffee" ,
+       price: "25.0",
+       imagepath: "lib/images/coffee-spoon-coffee-beans-aroma-wallpaper-preview.jpg",),
+
+    // latte coffee
+
+    Coffee(name: "Latte Coffee" ,
+      price: "35.0",
+      imagepath: "lib/images/cup-cappuccino-with-coffee-beans-table_141793-1050.jpg",),
+
+    // espresso coffee
+
+    Coffee(name: "Espresso Coffee" ,
+      price: "30.0",
+      imagepath: "lib/images/glass-coffee-table_380164-268151.jpg",),
+
+    // iced coffee
+    Coffee(name: "Iced Coffee" ,
+      price: "65.0",
+      imagepath: "lib/images/delicious-coffee-cup-indoors_23-2150691347.jpg",),
+  ];
+  // user cart
+  List<Coffee> _usercart = [];
+
+  // get coffee list
+  List<Coffee> get coffeeShop => _Shop;
+  // get user cart
+  List<Coffee> get coffeeCart => _usercart;
+
+  // add Item to cart
+  void addItemToCart(Coffee coffee) {
+    _usercart.add(coffee);
+    notifyListeners();
+  }
+
+  // remove Item from cart
+ void removeItemFromCart(Coffee coffee) {
+    _usercart.remove(coffee);
+    notifyListeners();
+ }
+
+
+}
