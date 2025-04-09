@@ -14,3 +14,19 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+Coffee Tute - Coffee Ordering App
+Coffee Tute is a fun and interactive Flutter app designed for coffee lovers! Whether you're a fan of espresso, latte, cappuccino, or any other coffee, Coffee Tute allows you to explore your options and make your coffee orders easily. With a clean interface and user-friendly design, this app offers a great experience for all coffee enthusiasts.
+
+Features
+Bottom Navigation Bar: Easily navigate between different sections of the app using the bottom navigation bar. The app includes key sections such as coffee menu, order history, and user profile.
+
+Static List of Coffees: A static list displays different types of coffee available in the app, allowing you to browse through your favorite drinks and select what you'd like to order.
+
+Provider for State Management: Coffee Tute uses Provider to manage the app's state efficiently. It ensures smooth updates and consistency across the app as you add, view, or manage your coffee orders.
+
+Tech Stack
+Flutter: A powerful framework for building cross-platform apps.
+
+Provider: For managing app state and providing a reactive and scalable approach.
+
+Bottom Navigation Bar: To easily navigate between app screens and sections.
