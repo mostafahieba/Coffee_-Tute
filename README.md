@@ -23,6 +23,7 @@ Bottom Navigation Bar: Easily navigate between different sections of the app usi
 Static List of Coffees: A static list displays different types of coffee available in the app, allowing you to browse through your favorite drinks and select what you'd like to order.
 
 Provider for State Management: Coffee Tute uses Provider to manage the app's state efficiently. It ensures smooth updates and consistency across the app as you add, view, or manage your coffee orders.
+![Screenshot 2025-04-09 214829](https://github.com/user-attachments/assets/a6a8a46d-45e2-4322-ab3f-05085f3386a7)
 
 Tech Stack
 Flutter: A powerful framework for building cross-platform apps.
